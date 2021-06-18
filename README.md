@@ -1,2 +1,2 @@
-# adalo-phone-number
-Adalo phone number component
+# landing-page
+the landing page for turnkeyapp to redirect to app.turnkeyapp.ca

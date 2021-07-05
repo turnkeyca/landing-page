@@ -1,0 +1,11 @@
+:root {
+  --teal: #53d3d1;
+  --amber: #feb249;
+  --blue: #002447;
+  --grey: #f3f4f6;
+  --white: #ffffff;
+}
+  
+.tk-bg-teal {
+  background-color: var(--teal);
+}

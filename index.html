@@ -20,10 +20,18 @@
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-    </head>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="./styles.css" rel="stylesheet">
+        <script src="toggleUserType.js"></script>
+      </head>
     <body>
-        <span>
-            Welcome to TK
-        </span>
+        <div class="flex items-center justify-around tk-bg-teal">
+          <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-2 h-16"/></div>
+          <div class="m-4">
+            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Features</span>
+            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Download</span>
+            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Newsletter</span>
+          </div>
+        </div>
     </body>
 </html>

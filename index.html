@@ -25,13 +25,26 @@
         <script src="toggleUserType.js"></script>
       </head>
     <body>
-        <div class="flex items-center justify-around tk-bg-teal">
-          <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-2 h-16"/></div>
-          <div class="m-4">
-            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Features</span>
-            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Download</span>
-            <span class="text-white tracking-wide font-medium cursor-pointer p-4">Newsletter</span>
+      <div class="flex items-center justify-around tk-bg-teal">
+        <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-2 h-16"/></div>
+        <div class="text-white tracking-wide font-medium cursor-pointer m-4">
+          <span class="p-4">Features</span>
+          <span class="p-4">Download</span>
+          <span class="p-4">Newsletter</span>
+        </div>
+      </div>
+      <div class="m-8">
+        <div class="flex flex-col items-center" #top>
+          <div class="text-gray-600 mb-2">Are you a RENTER or a LANDLORD?</div>
+          <div class="flex cursor-pointer border rounded-xl">
+            <div id="renter-pill" class="text-gray-600 font-medium p-4">RENTER</div>
+            <div id="landlord-pill" class="text-gray-600 font-medium p-4">LANDLORD</div>
           </div>
         </div>
+        <div id="renter">
+        </div>
+        <div id="landlord">
+        </div>
+      </div>
     </body>
 </html>

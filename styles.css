@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Axiforma-Bold;
+  src: url(Axiforma-Bold.ttf);
+}
+
 :root {
   --teal: #53d3d1;
   --amber: #feb249;
@@ -6,6 +11,22 @@
   --white: #ffffff;
 }
   
+* {
+  font-family: 'Axiforma-Bold';
+}
+
 .tk-bg-teal {
   background-color: var(--teal);
+}
+
+.tk-text-teal {
+  color: var(--teal);
+}
+
+.tk-text-amber {
+  color: var(--amber);
+}
+
+.tk-text-blue {
+  color: var(--blue);
 }

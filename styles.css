@@ -19,6 +19,10 @@
   background-color: var(--teal);
 }
 
+.tk-bg-amber {
+  background-color: var(--amber);
+}
+
 .tk-text-teal {
   color: var(--teal);
 }

@@ -38,7 +38,7 @@
       </div>
       <div class="flex flex-col items-center mb-32" #top>
         <div class="tk-text-blue text-2xl mb-16">Are you a RENTER or a LANDLORD?</div>
-        <div class="flex cursor-pointer border rounded-xl text-2xl bg-gray-100 text-gray-500">
+        <div class="flex cursor-pointer rounded-xl text-2xl bg-gray-100 text-gray-500">
           <div id="renter-pill" onclick="showRenterContent()" class="rounded-xl font-medium py-12 px-16">RENTER</div>
           <div id="landlord-pill" onclick="showLandlordContent()" class="rounded-xl font-medium py-12 px-16">LANDLORD</div>
         </div>
@@ -86,12 +86,6 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col items-center">
-            <div class="text-5xl font-bold tracking-wide tk-text-amber text-center mb-4">
-              Download Turnkey and start applying for rental properties
-            </div>
-            <iframe id="download" class="w-full h-screen" src="https://beta.turnkeyapp.ca/" title="Turnkey App"></iframe>
-          </div>
         </div>
         <div id="landlord">
           <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 mb-8 mr-32 ml-32">
@@ -136,13 +130,13 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col items-center">
-            <div class="text-5xl font-bold tracking-wide tk-text-amber text-center mb-4">
-              Download Turnkey and make the rental application process a breeze
-            </div>
-            <iframe id="download" class="w-full h-screen" src="https://beta.turnkeyapp.ca/" title="Turnkey App"></iframe>
-          </div>
         </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div id="download-label" class="text-5xl font-bold tracking-wide text-center mb-4">
+          Download Turnkey and make the rental application process a breeze
+        </div>
+        <iframe id="download" class="w-full h-screen" src="https://beta.turnkeyapp.ca/" title="Turnkey App"></iframe>
       </div>
     </div>
   </body>

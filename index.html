@@ -28,7 +28,7 @@
     <div class="flex items-center justify-around tk-bg-teal">
       <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-8 h-16"/></div>
       <div class="hidden xl:flex items-center text-white tracking-wide font-medium cursor-pointer text-2xl">
-        <a href="#content" class="mr-8">Features</a>
+        <a href="#features" class="mr-8">Features</a>
         <a href="#download">Download</a>
       </div>
     </div>
@@ -37,10 +37,10 @@
         <span class="text-6xl tk-text-blue tracking-wide font-bold">Simplifying the rental application process.</span>
       </div>
       <div class="flex flex-col items-center mb-32" #top>
-        <div class="tk-text-blue text-2xl">Are you a RENTER or a LANDLORD?</div>
-        <div class="flex cursor-pointer border rounded-xl">
-          <div id="renter-pill" onclick="showRenterContent()" class="rounded-xl font-medium py-4 px-6">RENTER</div>
-          <div id="landlord-pill" onclick="showLandlordContent()" class="rounded-xl font-medium py-4 px-6">LANDLORD</div>
+        <div class="tk-text-blue text-2xl mb-16">Are you a RENTER or a LANDLORD?</div>
+        <div class="flex cursor-pointer border rounded-xl text-2xl bg-gray-100 text-gray-500">
+          <div id="renter-pill" onclick="showRenterContent()" class="rounded-xl font-medium py-12 px-16">RENTER</div>
+          <div id="landlord-pill" onclick="showLandlordContent()" class="rounded-xl font-medium py-12 px-16">LANDLORD</div>
         </div>
       </div>
       <div id="content"></div>
@@ -61,7 +61,7 @@
             <div class="flex flex-end col-span-2">
               <img alt="turnkey displayed on two phones at angles" src="landlord-renter-phones.jpg" />
             </div>
-            <div class="flex flex-col col-span-3">
+            <div id="features" class="flex flex-col col-span-3">
               <div class="text-6xl font-bold tk-text-blue mb-8">Features</div>
               <div class="grid grid-cols-1 gap-8">
                 <div class="text-5xl font-bold tracking-wide tk-text-teal mb-4">Never fill out a rental application again.</div>
@@ -111,7 +111,7 @@
               <img alt="turnkey displayed on two phones at angles" src="landlord-renter-phones.jpg" />
             </div>
             <div class="flex flex-col col-span-3">
-              <div class="text-6xl font-bold tk-text-blue mb-8">Features</div>
+              <div id="features" class="text-6xl font-bold tk-text-blue mb-8">Features</div>
               <div class="grid grid-cols-1 gap-8">
                 <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">No more rental applications.</div>
                 <div class="text-2xl tk-text-blue tracking-wide font-medium">

@@ -1,8 +1,3 @@
-@font-face {
-  font-family: Axiforma-Bold;
-  src: url(Axiforma-Bold.ttf);
-}
-
 :root {
   --teal: #53d3d1;
   --amber: #feb249;
@@ -12,7 +7,7 @@
 }
   
 * {
-  font-family: 'Axiforma-Bold';
+  font-family: "Montserrat", serif;
 }
 
 .tk-bg-teal {

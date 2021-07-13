@@ -26,16 +26,18 @@
   </head>
   <body>
     <div class="flex items-center justify-around tk-bg-teal">
-      <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-2 h-16"/></div>
-      <div class="hidden xl:flex items-center text-white tracking-wide font-medium cursor-pointer m-4">
-        <a href="#content" class="p-4">Features</a>
-        <a href="#download" class="p-4">Download</a>
-        <a href="#newsletter" class="p-4">Newsletter</a>
+      <div><img alt="turnkey logo" src="./logo-on-teal.png" class="m-8 h-16"/></div>
+      <div class="hidden xl:flex items-center text-white tracking-wide font-medium cursor-pointer text-2xl">
+        <a href="#content" class="mr-8">Features</a>
+        <a href="#download">Download</a>
       </div>
     </div>
-    <div class="m-8 flex flex-col items-center">
-      <div class="flex flex-col items-center mb-8" #top>
-        <div class="text-gray-600 mb-2">Are you a RENTER or a LANDLORD?</div>
+    <div class="flex flex-col items-center">
+      <div class="flex items-center justify-center mt-32 mr-16 ml-16 mb-16">
+        <span class="text-6xl tk-text-blue tracking-wide font-bold">Simplifying the rental application process.</span>
+      </div>
+      <div class="flex flex-col items-center mb-32" #top>
+        <div class="tk-text-blue text-2xl">Are you a RENTER or a LANDLORD?</div>
         <div class="flex cursor-pointer border rounded-xl">
           <div id="renter-pill" onclick="showRenterContent()" class="rounded-xl font-medium py-4 px-6">RENTER</div>
           <div id="landlord-pill" onclick="showLandlordContent()" class="rounded-xl font-medium py-4 px-6">LANDLORD</div>
@@ -47,8 +49,11 @@
           <div class="grid grid-cols-1 xl:grid-cols-6 gap-8 mb-8">
             <div></div>
             <div class="flex flex-col col-span-2">
-              <div class="text-4xl font-black tracking-wide tk-text-teal mb-4">Never fill out a rental application again.</div>
-              <div class="tk-text-blue tracking-wide font-medium">Fill out your rental application all on one platform. Search for listings. Seamlessly share your rental application with landlords. Communicate with landlords.</div>
+              <div class="text-4xl font-black tracking-wide tk-text-teal mb-4">Find your next tenant in minutes.</div>
+              <div class="tk-text-blue tracking-wide font-medium">
+                Turnkey provides all of a renter's information in a digital profile. 
+                Save time during the application process, secure a qualified vacancy and avoid a vacancy.
+              </div>
             </div>
             <div class="col-span-2">
               <img alt="turnkey screenshot - profile page" src="renter-profile.png" />
@@ -83,50 +88,58 @@
             <div></div>
           </div>
           <div class="flex flex-col items-center">
-            <div class="text-4xl font-black tracking-wide tk-text-teal mb-4">
+            <div class="text-4xl font-bold tracking-wide tk-text-teal mb-4">
               Download Turnkey and start applying for rental properties
             </div>
             <iframe id="download" class="w-full h-screen" src="https://beta.turnkeyapp.ca/" title="Turnkey App"></iframe>
           </div>
         </div>
         <div id="landlord">
-          <div class="grid grid-cols-1 xl:grid-cols-6 gap-8 mb-8">
-            <div></div>
+          <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 mb-8 mr-32 ml-32">
+            <div class="flex flex-col col-span-3">
+              <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">Find your next tenant in minutes.</div>
+              <div class="text-2xl tk-text-blue tracking-wide font-medium pb-4 border border-t-0 border-l-0 border-r-0">
+                Turnkey provides all of a renter's information in a digital profile. 
+                Save time during the application process, secure a qualified vacancy and avoid a vacancy.
+              </div>
+            </div>
             <div class="col-span-2">
               <img alt="turnkey screenshot - profile page" src="renter-profile.png" />
             </div>
-            <div class="flex flex-col col-span-2">
-              <div class="text-4xl font-black tracking-wide tk-text-amber mb-4">Find your next tenant in minutes.</div>
-              <div class="tk-text-blue tracking-wide font-medium">View rental applications. Screen renters. Communicate with renters.</div>
-            </div>
-            <div></div>
           </div>
-          <div class="grid grid-cols-1 xl:grid-cols-6 gap-8">
-            <div></div>
-            <div class="grid grid-cols-1 gap-8 mb-8 col-span-2">
-              <div class="text-4xl font-black tracking-wide tk-text-amber mb-4">What does Turnkey do?</div>
-              <div class="flex">
-                <div class="tk-text-teal text-3xl font-black tracking-wide mr-2">1.</div>
-                <div class="tk-text-blue tracking-wide font-medium">First, a <span class="tk-text-teal">renter</span> comes across your listing advertisement and sends you a message sharing their interest in your property</div>
-              </div>
-              <div class="flex">
-                <div class="tk-text-teal text-3xl font-black tracking-wide mr-2">2.</div>
-                <div class="tk-text-blue tracking-wide font-medium">Next, you the <span class="tk-text-amber">landlord</span> request the interested renter complete a Turnkey profile - the rental application</div>
-              </div>
-              <div class="flex">
-                <div class="tk-text-teal text-3xl font-black tracking-wide mr-2">3.</div>
-                <div class="tk-text-blue tracking-wide font-medium">Once the renter has completed their profile, they can send you a link to view their profile</div>
-              </div>
-              <div class="tk-text-blue tracking-wide font-medium">As you view renter profiles you can seemlessly sift through all your applications in one place to find the right renter for your property.</div>
-            </div>
+          <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 mb-16 mr-32 ml-32">
             <div class="flex flex-end col-span-2">
               <img alt="turnkey displayed on two phones at angles" src="landlord-renter-phones.jpg" />
             </div>
-            <div></div>
+            <div class="flex flex-col col-span-3">
+              <div class="text-6xl font-bold tk-text-blue mb-8">Features</div>
+              <div class="grid grid-cols-1 gap-8">
+                <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">No more rental applications.</div>
+                <div class="text-2xl tk-text-blue tracking-wide font-medium">
+                  Ditch the paper applications and questionnaires. 
+                  Simply request an applicant's Turnkey profile to view their qualifications and rental history.
+                </div>
+                <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">Don't know what questions to ask? We do.</div>
+                <div class="text-2xl tk-text-blue tracking-wide font-medium">
+                  Asking the right questions helps you find the right tenant. 
+                  Turnkey profiles have all the informations of a standard rental application and more.
+                </div>
+                <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">Bad tenants are a HEADACHE.</div>
+                <div class="text-2xl tk-text-blue tracking-wide font-medium">
+                  Easily compare your applications by storing all of your leads in one place.
+                  Even better, take a peak at reviews from previous landlords to help confirm your final decision and avoid headaches.
+                </div>
+                <div class="text-5xl font-bold tracking-wide tk-text-amber mb-4">Time is money.</div>
+                <div class="text-2xl tk-text-blue tracking-wide font-medium pb-4 border border-t-0 border-l-0 border-r-0">
+                  <span class="mb-4">Did you know that landlords, on average, spend 60% of their time during the application process corresponding with under qualified applicants?</span>
+                  <span>Speed up the application process with Turnkey to quickly review applicants and avoid a vacancy</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="flex flex-col items-center">
-            <div class="text-4xl font-black tracking-wide tk-text-amber mb-4">
-              Download Turnkey and start applying for rental properties
+            <div class="text-5xl font-bold tracking-wide tk-text-amber text-center mb-4">
+              Download Turnkey and make the rental application process a breeze
             </div>
             <iframe id="download" class="w-full h-screen" src="https://beta.turnkeyapp.ca/" title="Turnkey App"></iframe>
           </div>

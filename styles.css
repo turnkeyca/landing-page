@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("Montserrat-Light.ttf");
+}
+
 :root {
   --teal: #53d3d1;
   --amber: #feb249;
@@ -7,7 +12,7 @@
 }
   
 * {
-  font-family: "Montserrat", serif;
+  font-family: " Montserrat-Light", serif;
 }
 
 .tk-bg-teal {
@@ -38,4 +43,12 @@
 .carousel .item {
   position: absolute;
   text-align: center;
+}
+
+.w-128 {
+  width: 32rem;
+}
+
+.h-128 {
+  height: 32rem;
 }

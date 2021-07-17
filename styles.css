@@ -29,21 +29,3 @@
 .tk-text-blue {
   color: var(--blue);
 }
-
-.carousel {
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel .item {
-  position: absolute;
-  text-align: center;
-}
-
-.w-144 {
-  width: 36rem;
-}
-
-.h-144 {
-  height: 36rem;
-}

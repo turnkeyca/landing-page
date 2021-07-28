@@ -29,3 +29,13 @@
 .tk-text-blue {
   color: var(--blue);
 }
+
+.carousel-item {
+  width: 100vw;
+}
+
+@media (min-width: 1280px) {
+  .carousel-item {
+    width: 48rem;
+  }
+}

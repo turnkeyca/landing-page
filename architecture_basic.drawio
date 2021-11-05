@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2021-11-05T00:05:49.680Z" agent="5.0 (X11)" etag="IfmUNsr94sDl1Xet8UUP" version="15.6.8" type="github">
+  <diagram id="mS3qy5lMnEHfb4XqcRZU" name="Page-1">
+    <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZtvTxL13G1o4dnF9xs7F-1" target="ZtvTxL13G1o4dnF9xs7F-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="ZtvTxL13G1o4dnF9xs7F-1" target="ZtvTxL13G1o4dnF9xs7F-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-1" value="Monolith" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="320" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-2" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZtvTxL13G1o4dnF9xs7F-3" target="ZtvTxL13G1o4dnF9xs7F-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-3" value="Frontend" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="540" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ZtvTxL13G1o4dnF9xs7F-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-12" value="What should you Google?&lt;br&gt;PostgresQL" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="55" y="480" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-13" value="&lt;div&gt;What should you Google?&lt;/div&gt;&lt;div&gt;Golang&lt;br&gt;Microservice architecture&lt;/div&gt;&lt;div&gt;12 Factor App (https://12factor.net/)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-14" value="&lt;div&gt;What should you Google?&lt;/div&gt;&lt;div&gt;React&lt;/div&gt;&lt;div&gt;Typescript&lt;/div&gt;&lt;div&gt;TailwindCSS&lt;/div&gt;&lt;div&gt;Progressive WebApps&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="505" y="480" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZtvTxL13G1o4dnF9xs7F-15" target="ZtvTxL13G1o4dnF9xs7F-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-16" value="Digital Ocean" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-17" value="Secondary Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-18" value="Landing Page" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="540" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-21" value="&lt;div&gt;What should you Google?&lt;/div&gt;&lt;div&gt;Digital Ocean Spaces&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="55" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-22" value="&lt;div&gt;What should you Google?&lt;/div&gt;&lt;div&gt;HTML&lt;/div&gt;&lt;div&gt;TailwindCSS&lt;/div&gt;&lt;div&gt;Static sites&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="230" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZtvTxL13G1o4dnF9xs7F-23" value="&lt;div&gt;What should you Google for EVERYTHING?&lt;/div&gt;&lt;div&gt;Git&lt;/div&gt;&lt;div&gt;GitHub&lt;/div&gt;&lt;div&gt;Agile software development principles&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="295" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
